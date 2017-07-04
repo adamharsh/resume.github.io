@@ -1,0 +1,267 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+}
+div.main{
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1300px;
+
+}
+div.top{
+	position: fixed;
+	bottom: 8px;
+	right: 8px;
+	padding: 3px 6px 3px 6px; 
+	background-color: rgb(255,0,119);
+
+}
+div.main a{
+	text-decoration: none;
+	color: black;
+}
+div.naav{
+	display: flex;
+	flex-direction: column;
+	position:fixed;
+	width: 250px;
+	background-color:rgb(18,37,55);
+	color: white;
+	margin-left: 170px;
+	border-radius: 50px;
+	z-index: 999;
+}
+div header.fixed{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/*position:fixed;*/
+	/*width: 250px;*/
+	width: 100%;
+	height: 50px;
+	background-color:rgb(18,37,55);
+	color: white;
+	/*margin-left: 170px;*/
+	/*border-radius: 25px;*/
+	z-index: 999;
+}
+div  div.nav{
+	
+	display: none;
+	/*margin-top: 20px;*/
+	background-color: grey;
+	/*border-radius: 50px;*/
+
+}
+div div.nav ul{
+	list-style-type: none;
+	background-color: grey;
+	/*border-radius: 50px;*/
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+div div.nav ul li{
+	text-align: left;
+	margin-top: 8px;
+}
+div div.nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+div div.nav ul li a:hover{
+	color:  rgb(255,0,119);
+	font-size: 22px;
+}
+div div.home{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	background-color: black;
+	align-items: center;
+	padding-top: 300px;
+	height: 400px;
+	opacity: 0.7;
+}
+div div.home div{
+	width: 500px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 10px;
+	opacity: 1;
+}
+div div.home div h3{
+	margin-left: 6px;
+	opacity: 1;
+}
+div div.home div h3.dul{
+	color:rgb(74,74,74);
+}
+div div.home div.me{
+	margin-top: 12px;
+	border: 2px solid rgb(69,69,69);
+	padding: 4px;
+}
+div div.home div.me:hover{
+	border: 2px solid rgb(255,0,119);
+	margin-top: 12px;
+	padding: 4px;
+}
+div div.p2{
+	background-color: white;
+	width: 100%;
+
+}
+div div div.content{
+	margin-top: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 170px;
+	margin-right: 170px;
+}
+div div div.content h2{
+	color: rgb(255,0,119);
+	margin-bottom: 20px;
+}
+div div div.content div.intro{
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+div div div.content div.intro img{
+	border-radius: 100px;
+	height: 200px;
+}
+div div div.content div.intro p{
+	margin-left: 60px;
+	margin-right: 60px;
+	font-size: 20px;
+	color: rgb(136,136,150);
+}
+div div div.content div.profile{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	width: 100%;
+}
+div div div.content div.profile div{
+	width: 30%;
+}
+div div div.content div.profile div h2{
+	margin-top: 30px;	
+}
+div div div.content div.profile div p{
+	
+	margin-bottom: 30px;
+}
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+#myBar1{
+	width: 80%;
+  height: 10px;
+  background-color: rgb(255,0,119);
+}
+#myBar2{
+	width: 80%;
+  height: 10px;
+  background-color: rgb(255,0,119);
+}
+#myBar3{
+	width: 30%;
+  height: 10px;
+  background-color: rgb(255,0,119);
+}
+#myBar4{
+	width: 60%;
+  height: 10px;
+  background-color: rgb(255,0,119);
+}
+div div div.content div.profile div a{
+	
+	background-color: black;
+	padding: 8px;
+	color: white;
+	text-decoration: none;
+}
+div div.p3{
+	margin-top: 30px;
+	background-color: rgb(235,235,235);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+div div.p3 h3{
+	margin-top: 30px;
+	color: rgb(255,0,119);
+	margin-bottom: 20px;
+}
+div div.p3 p{
+	margin-top: 20px;
+	width: 50%;
+	font-size: 20px;
+}
+div div.p3 div.details{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	width: 100%;
+}
+div div.p3 div.details div.edu1{
+	width: 50%;
+	border-right: thin solid grey;
+	margin-left: 170px;
+	margin-right: 10px;
+}
+div div.p3 div.details div.edu2{
+	width: 50%;
+	margin-left: 50px;
+	margin-right: 170px;
+}
+div div.p3 div.details h3{
+	color: black;
+	margin-bottom: 30px;
+}
+div div.contact{
+	width: 100%;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+div div.contact div.container{
+	margin-left: 170px;
+	margin-right: 170px;
+	display: flex;
+	justify-content: space-between;
+}
+
+div div.contact div.container div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+div div.contact div.container div i{
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+div div.contact div.container div h3{
+	color: rgb(255,0,119);
+	margin-bottom: 20px;
+}
+div div.contact div.container div p{
+	color: white;
+	
+}
+
