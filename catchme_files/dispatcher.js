@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/flux/dispatcher"],function(e,r,i){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),r.sharedLinkFolderDispatcher=i});
+//# sourceMappingURL=dispatcher.min.js-vflozKOrx.map

@@ -1,0 +1,2 @@
+define(["require","exports"],function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0});(function(e){e[e.FetchPageSuccess=0]="FetchPageSuccess",e[e.InitializeFolder=1]="InitializeFolder",e[e.LoadStart=2]="LoadStart",e[e.LoadEnd=3]="LoadEnd"})(t.SharedLinkFolderAction||(t.SharedLinkFolderAction={}))});
+//# sourceMappingURL=constants.min.js-vflluR4dH.map
